@@ -1,0 +1,121 @@
+.logo {
+	width: 110px;
+	margin-left: 20px;
+  margin-top: 3px;
+}
+.logo:hover {
+	filter: contrast(23%);
+}
+
+header {
+	display: flex;
+	justify-content: space-between;
+	background-color: #fff;
+	position: sticky; 
+	top: 0; 
+	width: 100%; /
+}
+ul li {
+	display: inline-block;
+	margin-right: 34px;
+}
+ul li a {
+	color: #000000;
+	list-style: none;
+	font-size: 13px;
+	text-decoration: none;
+	font-family: 'Open Sans', sans-serif;
+}
+ul li a:hover {
+	color: #584EFF;
+	list-style: none;
+	font-size: 13px;
+	text-decoration: none;
+
+}
+.la {
+	width: 240px;
+	margin-top: 20px;
+}
+.button {
+	font-size: 26px;
+	height: 70px;
+	width: 258px;	
+	border-color: transparent;
+	border-radius: 30px;
+	background-image: linear-gradient(to right, #006a8b 0%, #b894ff 51%, #37603a 100%);
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;            
+}
+ .button:hover {
+    background-position: right center; /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+}
+details > summary:first-of-type {
+    list-style-type: none;
+}
+.sumh1 {
+	font-size: 30px;
+	background: #b894ff;
+	color: #fff;
+}
+.btnchap {
+	font-size: 21px;
+	height: 70px;
+	width: 80%;	
+	border-color: transparent;
+	border-radius: 30px;
+	background-image: linear-gradient(to right, #006a8b 0%, #b894ff 51%, #37603a 100%);
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;      
+}
+.pdfi {
+	width: 95%;
+	height: 580px;
+}
+.pdf {
+	width: 98%;
+	height: 580px;
+}
+.summary {
+	width: 80%;
+	font-size: 25px;
+	background: #24b1c0;
+	color: #fff;
+	border-color: yellowgreen;
+	border-radius: 30px;
+}
+.summary1 {
+	width: 50%;
+	font-size: 25px;
+	background: #fd73ba;
+	color: #fff;
+	border-color: yellowgreen;
+	border-radius: 30px;
+}
+.logo-text {
+	font-size: 30px;
+}
+.intro {
+	 margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 120px;
+  transform: translate(-50%, -50%);
+}
+@media screen and (max-width: 658px)  {
+	.logo-text {
+	font-size: 20px;
+}
+}
+@media screen and (max-width: 408px) {
+	header {
+		 flex-direction: column;
+	}
+}
+
+
